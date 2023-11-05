@@ -1,11 +1,12 @@
 :root {
-  --primary: #bef2d2;
-  --business: #f2bede;
+  --primary: #4bd5e7;
+  --business: #e1341e;
   --personal: var(--primary);
   --light: #eee;
   --grey: #888;
   --dark: #313154;
-  --danger: #ff5b57;
+  --danger: #c31d1a;
+  --bgc: #1ecbe1;
 
   --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 
@@ -15,10 +16,10 @@
 
 * {
   margin: 0%;
-  padding: 5px;
+  padding: 0px;
   box-sizing: border-box;
   font-family: "montserrat", sans-serif;
-  background-color: #f2ecbe;
+  background-color: var(--bgc);
 }
 
 input:not([type="radio"]):not([type="checkbox"]),
@@ -103,7 +104,7 @@ h4 {
   align-items: center;
   justify-content: center;
   padding: 1.5rem;
-  background-color: #bec4f2;
+  background-color: #e1351e96;
   border-radius: 0.5rem;
   box-shadow: var(--shadow);
   cursor: pointer;
