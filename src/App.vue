@@ -43,7 +43,7 @@ onMounted(() => {
 
 <template>
   <main class="app">
-    <section class="left-section">
+    <section class="top-section">
       <section class="greeting">
         <h2 class="title">
           Welcome back, <input type="text" 
@@ -64,13 +64,13 @@ onMounted(() => {
             <label>
               <input type="radio" name="category" value="business" v-model="input_category" />
               <span class="bubble business"></span>
-              <div>Business</div>
+              <div style="background-color:#bec4f2;">Business</div>
             </label>
 
             <label>
               <input type="radio" name="category" value="personal" v-model="input_category" />
               <span class="bubble personal"></span>
-              <div>Personal</div>
+              <div style="background-color:#bec4f2;">Personal</div>
             </label>
           </div>
 
@@ -79,7 +79,7 @@ onMounted(() => {
       </section>
     </section>
 
-    <section class="right-section">
+    <section class="bottom-section">
       <section class="todo-list">
         <h3>TODO LIST</h3>
         <div class="list">
